@@ -16,7 +16,7 @@ function Perfil() {
   }, [usuario.token])
 
   return (
-    <div className='className="flex w-full flex-row-reverse items-center justify-center'>
+    <div className='className="flex w-2/3 flex-row-reverse'>
       <div className="w-screen h-screen fixed top-0 left-0 cursor-pointer">
       <img className='w-full h-72 object-cover' src={loginLogo} alt="Capa do Perfil" />
       <img src={usuario.foto} alt={`Foto de perfil de ${usuario.nome}`} className='rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10' />
